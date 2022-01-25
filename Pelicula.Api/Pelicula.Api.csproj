@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pelicula.Application\Pelicula.Application.csproj" />
+    <ProjectReference Include="..\Pelicula.Domain\Pelicula.Domain.csproj" />
+    <ProjectReference Include="..\Pelicula.Infraestructure\Pelicula.Infraestructure.csproj" />
+  </ItemGroup>
+
+</Project>
